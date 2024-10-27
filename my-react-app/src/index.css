@@ -1,0 +1,20 @@
+/* Centered and responsive */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Mobile-friendly */
+@media (max-width: 600px) {
+  .login-page { 
+    padding: 10px; 
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
